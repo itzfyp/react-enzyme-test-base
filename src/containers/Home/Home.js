@@ -15,7 +15,6 @@ class Home extends Component {
   static contextType = AuthContext;
 
   updateAuth = () => {
-    console.log("Home : Auth Update CallBack");
     this.context.update();
   };
 
