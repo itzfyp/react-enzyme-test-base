@@ -1,6 +1,5 @@
 import React from "react";
 
 export default props => {
-  console.log("props", props);
-  return <h4>About</h4>;
+  return <h4>About Page</h4>;
 };
